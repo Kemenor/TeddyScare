@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\IEnemyState.cs" />
     <Compile Include="Assets\Scripts\IgnoreCollision.cs" />
+    <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\LookoutState\LookoutIdleState.cs" />
     <Compile Include="Assets\Scripts\LookoutState\LookoutPatrolState.cs" />
     <Compile Include="Assets\Scripts\RangerState\DeathState.cs" />

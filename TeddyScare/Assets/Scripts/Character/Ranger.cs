@@ -23,7 +23,7 @@ public class Ranger : StateEnemy
 		if (LineOfSightToPlayer(2))
 		{
 			//kill player
-			Game.Instance.KillPlayer();
+			Level.Instance.KillPlayer();
 		}
 		else
 		{

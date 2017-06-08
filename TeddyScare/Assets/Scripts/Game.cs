@@ -2,20 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
-	private static Game instance;
-	public static Game Instance
+
+	public void Start()
 	{
-		get
-		{
-			if (instance == null)
-			{
-				instance = GameObject.FindObjectOfType<Game>();
-			}
-			return instance;
-		}
+		DontDestroyOnLoad(this);
 	}
 	private static Player player;
 	public static Player Player
@@ -29,99 +23,24 @@ public class Game : MonoBehaviour
 			return player;
 		}
 	}
-	[SerializeField]
-	private int dangerLevel;
-	[SerializeField]
-	private Character[] characters;
 
-	[SerializeField]
-	private Character[] level0Activate;
+	private static int levelNumber = 0;
+	public Level Level { get; private set; }
 
-	[SerializeField]
-	private Character[] level0Deactivate;
-
-	[SerializeField]
-	private Character[] level1Activate;
-
-	[SerializeField]
-	private Character[] level2Activate;
-
-	[SerializeField]
-	private Character[] level3Activate;
-
-	[SerializeField]
-	private Character[] level1Deactivate;
-
-	[SerializeField]
-	private Character[] level2Deactivate;
-
-	[SerializeField]
-	private Character[] level3Deactivate;
-
-
-	public void ResetAll()
+	public void NextLevel()
 	{
-		foreach (var item in characters)
+		int dangerRating = 0;
+		if (Level != null)
+			dangerRating = Level.DangerLevel;
+		levelNumber++;
+		SceneManager.LoadScene("Bear" + levelNumber);
+		foreach (var item in SceneManager.GetActiveScene().GetRootGameObjects())
 		{
-			item.Reset();
-		}
-	}
-
-	public void KillPlayer()
-	{
-		player.Anim.SetTrigger("Death");
-	}
-
-	public void AddToDangerLevel(int danger = 1)
-	{
-		SetDangerRating(dangerLevel + danger);
-	}
-
-	protected void SetDangerRating(int dangerRating)
-	{
-		this.dangerLevel = dangerRating;
-		switch (dangerLevel)
-		{
-			case 0:
-				foreach (var item in level0Activate)
-				{
-					item.gameObject.SetActive(true);
-				}
-				foreach (var item in level0Deactivate)
-				{
-					item.gameObject.SetActive(false);
-				}
-				break;
-			case 1:
-				foreach (var item in level1Activate)
-				{
-					item.gameObject.SetActive(true);
-				}
-				foreach (var item in level1Deactivate)
-				{
-					item.gameObject.SetActive(false);
-				}
-				break;
-			case 2:
-				foreach (var item in level2Activate)
-				{
-					item.gameObject.SetActive(true);
-				}
-				foreach (var item in level2Deactivate)
-				{
-					item.gameObject.SetActive(false);
-				}
-				break;
-			default:
-				foreach (var item in level3Activate)
-				{
-					item.gameObject.SetActive(true);
-				}
-				foreach (var item in level3Deactivate)
-				{
-					item.gameObject.SetActive(false);
-				}
-				break;
+			if (item.CompareTag("Level"))
+			{
+				this.Level = item.GetComponent<Level>();
+				Level.SetInitialDanger(dangerRating);
+			}
 		}
 	}
 }
