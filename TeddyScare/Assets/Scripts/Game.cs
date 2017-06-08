@@ -11,6 +11,14 @@ public class Game : MonoBehaviour
 	{
 		DontDestroyOnLoad(this);
 	}
+
+	public void Update()
+	{
+		if (Input.GetKey(KeyCode.O))
+		{
+			NextLevel();
+		}
+	}
 	private static Player player;
 	public static Player Player
 	{
