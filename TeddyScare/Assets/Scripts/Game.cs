@@ -18,6 +18,10 @@ public class Game : MonoBehaviour
 		{
 			NextLevel();
 		}
+		if (Input.GetKey(KeyCode.Escape))
+		{
+			LoadLevel(0);
+		}
 	}
 	private static Player player;
 	public static Player Player
@@ -37,17 +41,32 @@ public class Game : MonoBehaviour
 
 	public void NextLevel()
 	{
-		int dangerRating = 0;
-		if (Level != null)
-			dangerRating = Level.DangerLevel;
-		levelNumber++;
-		SceneManager.LoadScene("Bear" + levelNumber);
-		foreach (var item in SceneManager.GetActiveScene().GetRootGameObjects())
+		LoadLevel(levelNumber + 1);
+	}
+
+	public void LoadLevel(int level)
+	{
+		if (level == 0)
 		{
-			if (item.CompareTag("Level"))
+			levelNumber = 0;
+			Level = null;
+			SceneManager.LoadScene("MainMenu");
+		}
+		else
+		{
+			int dangerRating = 0;
+			if (Level != null)
+				dangerRating = Level.DangerLevel / 2;
+			levelNumber = level;
+			SceneManager.LoadScene("Bear" + levelNumber);
+			foreach (var item in SceneManager.GetActiveScene().GetRootGameObjects())
 			{
-				this.Level = item.GetComponent<Level>();
-				Level.SetInitialDanger(dangerRating);
+				if (item.CompareTag("Level"))
+				{
+					this.Level = item.GetComponent<Level>();
+					Level.SetInitialDanger(dangerRating);
+					break;
+				}
 			}
 		}
 	}
