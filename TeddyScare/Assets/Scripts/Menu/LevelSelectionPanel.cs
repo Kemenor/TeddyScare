@@ -25,12 +25,12 @@ public class LevelSelectionPanel : MonoBehaviour
 
     public void LoadLevelOne()
     {
-        SceneManager.LoadScene("Bear1");
+        Game.Instance.LoadLevel(1);
     }
 
     public void LoadLevelTwo()
     {
-        SceneManager.LoadScene("Bear2");
+        Game.Instance.LoadLevel(2);
     }
 
     public void OpenLevelSelection()

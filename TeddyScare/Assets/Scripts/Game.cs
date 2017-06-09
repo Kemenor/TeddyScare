@@ -6,8 +6,20 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
+    private static Game instance;
+    public static Game Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = GameObject.FindObjectOfType<Game>();
+            }
+            return instance;
+        }
+    }
 
-	public void Start()
+    public void Start()
 	{
 		DontDestroyOnLoad(this);
 	}
