@@ -31,6 +31,6 @@ public class Normal : Enemy
 	public override void Reset()
 	{
 		base.Reset();
-		gameObject.SetActive(true);
+		run = false;
 	}
 }
