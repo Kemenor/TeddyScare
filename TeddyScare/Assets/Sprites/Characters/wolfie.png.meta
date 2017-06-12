@@ -1,39 +1,39 @@
 fileFormatVersion: 2
 guid: 50d07a84871fcab4a9d41861bde66085
-timeCreated: 1497253697
+timeCreated: 1497287858
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: wolfie_0
-    21300002: wolfie_1
-    21300004: wolfie_2
-    21300006: wolfie_3
-    21300008: wolfie_4
-    21300010: wolfie_5
-    21300012: wolfie_6
-    21300014: wolfie_7
-    21300016: wolfie_8
-    21300018: wolfie_9
-    21300020: wolfie_10
-    21300022: wolfie_11
-    21300024: wolfie_12
-    21300026: wolfie_13
-    21300028: wolfie_14
-    21300030: wolfie_15
-    21300032: wolfie_16
-    21300034: wolfie_17
-    21300036: wolfie_18
-    21300038: wolfie_19
-    21300040: wolfie_20
-    21300042: wolfie_21
-    21300044: wolfie_22
-    21300046: wolfie_23
-    21300048: wolfie_24
-    21300050: wolfie_25
+    21300000: wolfwalkright_1
+    21300002: wolfwalkright_2
+    21300004: wolfwalkright_3
+    21300006: wolfwalkright_4
+    21300008: wolfwalkright_5
+    21300010: wolfwalkright_6
+    21300012: wolfwalkleft_5
+    21300014: wolfwalkleft_6
+    21300016: wolfwalkleft_7
+    21300018: wolfwalkleft_8
+    21300020: wolfattackright_3
+    21300022: wolfattackright_4
+    21300024: wolfwalkright_7
+    21300026: wolfwalkright_8
+    21300028: wolfwalkleft_1
+    21300030: wolfwalkleft_2
+    21300032: wolfwalkleft_3
+    21300034: wolfwalkleft_4
+    21300036: wolfattackright_2
+    21300038: wolfattackright_1
+    21300040: wolfattackleft_3
+    21300042: wolfattackleft_4
+    21300044: wolfattackleft_2
+    21300046: wolfattackleft_1
+    21300048: wolfidleright_1
+    21300050: wolfidleright_2
     21300052: wolfie_26
-    21300054: wolfie_27
-    21300056: wolfie_28
-    21300058: wolfie_29
+    21300054: wolfidleleft_1
+    21300056: wolfidleleft_2
+    21300058: wolfidleleft_3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wolfie_0
+      name: wolfwalkright_1
       rect:
         serializedVersion: 2
         x: 0
@@ -132,12 +132,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_1
+      name: wolfwalkright_2
       rect:
         serializedVersion: 2
         x: 153
@@ -145,12 +145,12 @@ TextureImporter:
         width: 153
         height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_2
+      name: wolfwalkright_3
       rect:
         serializedVersion: 2
         x: 306
@@ -158,12 +158,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_3
+      name: wolfwalkright_4
       rect:
         serializedVersion: 2
         x: 459
@@ -171,12 +171,12 @@ TextureImporter:
         width: 153
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_4
+      name: wolfwalkright_5
       rect:
         serializedVersion: 2
         x: 612
@@ -184,12 +184,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_5
+      name: wolfwalkright_6
       rect:
         serializedVersion: 2
         x: 765
@@ -197,12 +197,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_6
+      name: wolfwalkleft_5
       rect:
         serializedVersion: 2
         x: 0
@@ -210,12 +210,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_7
+      name: wolfwalkleft_6
       rect:
         serializedVersion: 2
         x: 153
@@ -223,12 +223,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_8
+      name: wolfwalkleft_7
       rect:
         serializedVersion: 2
         x: 306
@@ -236,12 +236,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_9
+      name: wolfwalkleft_8
       rect:
         serializedVersion: 2
         x: 458
@@ -249,12 +249,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_10
+      name: wolfattackright_3
       rect:
         serializedVersion: 2
         x: 612
@@ -262,12 +262,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_11
+      name: wolfattackright_4
       rect:
         serializedVersion: 2
         x: 765
@@ -275,12 +275,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_12
+      name: wolfwalkright_7
       rect:
         serializedVersion: 2
         x: 0
@@ -288,12 +288,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_13
+      name: wolfwalkright_8
       rect:
         serializedVersion: 2
         x: 153
@@ -301,12 +301,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_14
+      name: wolfwalkleft_1
       rect:
         serializedVersion: 2
         x: 309
@@ -319,7 +319,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_15
+      name: wolfwalkleft_2
       rect:
         serializedVersion: 2
         x: 459
@@ -327,12 +327,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_16
+      name: wolfwalkleft_3
       rect:
         serializedVersion: 2
         x: 612
@@ -340,12 +340,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_17
+      name: wolfwalkleft_4
       rect:
         serializedVersion: 2
         x: 765
@@ -353,12 +353,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_18
+      name: wolfattackright_2
       rect:
         serializedVersion: 2
         x: 0
@@ -366,12 +366,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_19
+      name: wolfattackright_1
       rect:
         serializedVersion: 2
         x: 153
@@ -379,12 +379,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_20
+      name: wolfattackleft_3
       rect:
         serializedVersion: 2
         x: 306
@@ -392,12 +392,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_21
+      name: wolfattackleft_4
       rect:
         serializedVersion: 2
         x: 459
@@ -405,12 +405,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_22
+      name: wolfattackleft_2
       rect:
         serializedVersion: 2
         x: 612
@@ -418,12 +418,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_23
+      name: wolfattackleft_1
       rect:
         serializedVersion: 2
         x: 765
@@ -431,12 +431,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_24
+      name: wolfidleright_1
       rect:
         serializedVersion: 2
         x: 0
@@ -444,12 +444,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_25
+      name: wolfidleright_2
       rect:
         serializedVersion: 2
         x: 155
@@ -457,7 +457,7 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -470,12 +470,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_27
+      name: wolfidleleft_1
       rect:
         serializedVersion: 2
         x: 464
@@ -483,12 +483,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_28
+      name: wolfidleleft_2
       rect:
         serializedVersion: 2
         x: 617
@@ -496,12 +496,12 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: wolfie_29
+      name: wolfidleleft_3
       rect:
         serializedVersion: 2
         x: 766
@@ -509,7 +509,7 @@ TextureImporter:
         width: 153
         height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
