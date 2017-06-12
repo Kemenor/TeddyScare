@@ -88,6 +88,8 @@
     <Compile Include="Assets\Scripts\Behaviours\DeathBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviours\JumpBehaviour.cs" />
     <Compile Include="Assets\Scripts\Behaviours\LandBehaviour.cs" />
+    <Compile Include="Assets\Scripts\BoarState\BoarIdleState.cs" />
+    <Compile Include="Assets\Scripts\BoarState\BoarPatrolState.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Character\Character.cs" />
     <Compile Include="Assets\Scripts\Character\Enemy.cs" />
@@ -112,6 +114,8 @@
     <Compile Include="Assets\Scripts\RangerState\RangerIdleState.cs" />
     <Compile Include="Assets\Scripts\RangerState\RangerPatrolState.cs" />
     <Compile Include="Assets\Scripts\StateEnemy.cs" />
+    <Compile Include="Assets\Scripts\WolfState\WolfIdleState.cs" />
+    <Compile Include="Assets\Scripts\WolfState\WolfPatrolState.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
