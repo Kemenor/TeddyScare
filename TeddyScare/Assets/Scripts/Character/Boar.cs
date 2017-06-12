@@ -1,34 +1,32 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boar : StateEnemy
-{
+public class Boar : StateEnemy {
     public override void Start()
     {
         base.Start();
-        ChangeState(new BoarIdleState());
+        ChangeState(new BoarPatrolState());
     }
+
     public override void Reset()
     {
         base.Reset();
         ChangeState(new BoarIdleState());
     }
-
-
-    public void ShootPlayer()
+    
+    public void HitPlayer()
     {
-        //Los check kill player
-        if (LineOfSightToPlayer(2))
+        Debug.Log("Hitting Player");
+        //Check if HitBox
+        Collider2D boar = GetComponent<Collider2D>();
+        if (boar.bounds.Intersects(Level.Player.GetComponent<Collider2D>().bounds))
         {
-            //kill player
             Level.Instance.KillPlayer();
         }
         else
         {
-            ChangeState(new BoarPatrolState());
+            ChangeState(new BoarBackToStartState());
         }
-
     }
 }

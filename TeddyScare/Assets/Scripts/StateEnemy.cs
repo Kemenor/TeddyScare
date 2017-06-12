@@ -29,6 +29,7 @@ public abstract class StateEnemy : Enemy
 
 	public void ChangeState(IEnemyState newState)
 	{
+        Debug.Log(newState.GetType());
 		if (currentState != null)
 		{
 			currentState.Exit();

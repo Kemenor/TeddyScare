@@ -3,18 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoarPatrolState : IEnemyState
+public class BoarAttackState : IEnemyState
 {
-    private StateEnemy enemy;
+
     public void Enter(StateEnemy enemy)
     {
-        this.enemy = enemy;
-        enemy.Anim.SetFloat("Speed", 1f);
+        enemy.Anim.SetFloat("Speed", 0f);
+        enemy.Anim.SetTrigger("Attack");
     }
 
     public void Execute()
     {
-        enemy.Move();
     }
 
     public void Exit()
@@ -23,10 +22,5 @@ public class BoarPatrolState : IEnemyState
 
     public void OnTriggerenter(Collider2D other)
     {
-        if (other.tag == "Edge")
-        {
-            enemy.ChangeState(new BoarIdleState());
-        }
     }
-
 }

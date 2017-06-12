@@ -17,10 +17,7 @@ public abstract class Enemy : Character {
     { 
         if (visible)
         {
-            Vector2 vec = new Vector2(1,1);
-            vec = Rotate(vec, 90);
-            Debug.DrawLine(transform.position, vec, Color.blue);
-            Vector2 direction = (target.transform.position - transform.position).normalized;
+            Vector2 direction = GetDirection(target);
             float angle = Vector2.Angle(facingRight ? transform.right : transform.right * -1, direction);
             Debug.DrawRay(transform.position, direction * lookingDistance * muliplier, Color.red);
             if (angle <= fov)
@@ -34,6 +31,11 @@ public abstract class Enemy : Character {
         }
 
         return false;
+    }
+
+    public Vector2 GetDirection(Collider2D target)
+    {
+        return (target.transform.position - transform.position).normalized;
     }
     private bool visible;
     private void OnBecameInvisible()
@@ -56,21 +58,26 @@ public abstract class Enemy : Character {
         transform.Translate(GetDirection() * movementSpeed * Time.deltaTime);
     }
 
+    public void Run()
+    {
+        transform.Translate(GetDirection() * runSpeed * Time.deltaTime);
+    }
+
     public Vector2 GetDirection()
     {
         return facingRight ? Vector2.right : Vector2.left;
     }
 
-    public Vector2 Rotate(Vector2 v, float degrees)
-    {
-        float sin = Mathf.Sin(degrees * Mathf.Deg2Rad);
-        float cos = Mathf.Cos(degrees * Mathf.Deg2Rad);
 
-        float tx = v.x;
-        float ty = v.y;
-        v.x = (cos * tx) - (sin * ty);
-        v.y = (sin * tx) + (cos * ty);
-        return v;
+    public bool OverlapsPlayer()
+    {
+        Player instance = Game.Player;
+        if (instance.Anim.GetCurrentAnimatorStateInfo(0).IsName("Death"))
+        {
+            return false;
+        }
+        
+        return GetComponent<Collider2D>().bounds.Intersects(instance.GetComponent<Collider2D>().bounds);
     }
 
 }

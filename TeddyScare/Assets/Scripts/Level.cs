@@ -75,7 +75,10 @@ public class Level : MonoBehaviour
 	{
 		foreach (var item in characters)
 		{
-			item.Reset();
+            if (item.gameObject.activeInHierarchy)
+            {
+                item.Reset();
+            }
 		}
 		SetDangerRating(initialRating);
 	}

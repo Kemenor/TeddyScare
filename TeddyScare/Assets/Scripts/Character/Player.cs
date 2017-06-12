@@ -34,7 +34,7 @@ public class Player : Character {
         if (transform.position.y <= -14f)
         {
             PlayerBody.velocity = Vector2.zero;
-            transform.position = startPos;
+            transform.position = StartPos;
         }
 
         HandleInput();

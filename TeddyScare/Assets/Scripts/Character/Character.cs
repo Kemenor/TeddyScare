@@ -6,10 +6,12 @@ public abstract class Character : MonoBehaviour {
     public Animator Anim { get; protected set; }
 
     [SerializeField]
+    protected float runSpeed;
+    [SerializeField]
     protected float movementSpeed;
     protected bool facingRight;
 
-    protected Vector2 startPos;
+    public Vector2 StartPos { get; protected set; }
 
     public bool Attack { get; set; }
     // Use this for initialization
@@ -18,12 +20,12 @@ public abstract class Character : MonoBehaviour {
     {
         facingRight = true;
         Anim = GetComponent<Animator>();
-        startPos = transform.position;
+        StartPos = transform.position;
     }
 
     public virtual void Reset()
     {
-        transform.position = startPos;
+        transform.position = StartPos;
     }
 
     public void ChangeDirection()

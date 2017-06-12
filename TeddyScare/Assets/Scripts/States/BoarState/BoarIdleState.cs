@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoarIdleState : IEnemyState
-{
+public class BoarIdleState : IEnemyState {
+
     private StateEnemy enemy;
 
     private float idleTimer = 0;
@@ -17,18 +17,20 @@ public class BoarIdleState : IEnemyState
 
     public void Execute()
     {
+
         if (enemy.LineOfSightToPlayer())
         {
-            Level.Instance.AddToDangerLevel();
-            //TODO start hide
-            enemy.gameObject.SetActive(false);
+            enemy.ChangeState(new BoarFollowState());
+        }
+        if (enemy.OverlapsPlayer())
+        {
+            enemy.ChangeState(new BoarFollowState());
         }
         idleTimer += Time.deltaTime;
         if (idleTimer >= idleDuration)
         {
             idleTimer = 0;
             enemy.ChangeState(new BoarPatrolState());
-            enemy.ChangeDirection();
         }
     }
 
