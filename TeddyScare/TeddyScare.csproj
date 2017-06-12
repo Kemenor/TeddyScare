@@ -91,12 +91,14 @@
     <Compile Include="Assets\Scripts\BoarState\BoarIdleState.cs" />
     <Compile Include="Assets\Scripts\BoarState\BoarPatrolState.cs" />
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Character\Boar.cs" />
     <Compile Include="Assets\Scripts\Character\Character.cs" />
     <Compile Include="Assets\Scripts\Character\Enemy.cs" />
     <Compile Include="Assets\Scripts\Character\Lookout.cs" />
     <Compile Include="Assets\Scripts\Character\Normal.cs" />
     <Compile Include="Assets\Scripts\Character\Player.cs" />
     <Compile Include="Assets\Scripts\Character\Ranger.cs" />
+    <Compile Include="Assets\Scripts\Character\Wolf.cs" />
     <Compile Include="Assets\Scripts\CollisionTrigger.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\IEnemyState.cs" />
