@@ -15,4 +15,8 @@ public class Lookout : StateEnemy
         base.Reset();
         ChangeState(new LookoutPatrolState());
     }
+
+    protected override void die()
+    {
+    }
 }

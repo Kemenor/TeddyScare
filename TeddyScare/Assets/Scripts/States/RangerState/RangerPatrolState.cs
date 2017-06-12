@@ -38,7 +38,8 @@ public class RangerPatrolState : IEnemyState
     {
         if (other.tag == "Edge")
         {
-            enemy.ChangeDirection();
+            enemy.ChangeState(new RangerIdleState(((Ranger)enemy).waitOnEdge));
+            
         }
         if(other.tag == "idle")
         {

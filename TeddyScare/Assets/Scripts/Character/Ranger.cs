@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Ranger : StateEnemy
 {
+    [SerializeField]
+    public bool waitOnEdge;
 	public override void Start()
 	{
 		base.Start();
@@ -31,4 +33,10 @@ public class Ranger : StateEnemy
 		}
 
 	}
+
+    protected override void die()
+    {
+        Anim.SetTrigger("Dead");
+        Level.Instance.AddToDangerLevel(2);
+    }
 }

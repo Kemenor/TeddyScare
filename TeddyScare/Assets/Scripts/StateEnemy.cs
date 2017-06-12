@@ -16,18 +16,19 @@ public abstract class StateEnemy : Enemy
 	// Update is called once per frame
 	void FixedUpdate()
 	{
-		if (currentState != null)
+		if (currentState != null && !dead && gameObject.activeInHierarchy)
 		{
 			currentState.Execute();
 		}
 	}
 
-	protected void OnTriggerEnter2D(Collider2D collision)
-	{
-		currentState.OnTriggerenter(collision);
-	}
+    protected override void OnTriggerenter2D(Collider2D collision)
+    {
+        base.OnTriggerenter2D(collision);
+        currentState.OnTriggerenter(collision);
+    }
 
-	public void ChangeState(IEnemyState newState)
+    public void ChangeState(IEnemyState newState)
 	{
         Debug.Log(newState.GetType());
 		if (currentState != null)

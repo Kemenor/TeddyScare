@@ -5,9 +5,8 @@ using UnityEngine;
 
 public class Player : Character
 {
-
-
-
+    [SerializeField]
+    private Collider2D hitCollider;
 	[SerializeField]
 	private Transform[] groundPoints;
 	[SerializeField]
@@ -125,6 +124,13 @@ public class Player : Character
 			Anim.SetLayerWeight(1, 0);
 		}
 	}
+
+    public void MeleeAttack()
+    {
+        hitCollider.enabled = !hitCollider.enabled;
+        
+    }
+    
 
 	protected void OnTriggerEnter2D(Collider2D collision)
 	{

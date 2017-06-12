@@ -25,7 +25,7 @@ public class MenuPanel : MonoBehaviour
              
     public void StartGame()
     {
-        SceneManager.LoadScene("Bear1");
+        Game.Instance.NextLevel();
     }
 
     public void OpenLevelSelection()

@@ -32,19 +32,18 @@ public class Level : MonoBehaviour
 	}
 	private int initialRating = 0;
 
-	[SerializeField]
-	public int DangerLevel { get; private set; }
+    [SerializeField]
+    private int danger;
+    [SerializeField]
+    public int DangerLevel {
+        get { return danger; }
+        set { this.danger = value; }
+    }
+
 	[SerializeField]
 	private Character[] characters;
 
-	[SerializeField]
-	private Character[] level0Activate;
-
-	[SerializeField]
-	private Character[] level0Deactivate;
-
-	[SerializeField]
-	private Character[] level1Activate;
+	
 
 	internal void SetInitialDanger(int dangerRating)
 	{
@@ -55,13 +54,22 @@ public class Level : MonoBehaviour
 		}
 	}
 
-	[SerializeField]
+    [SerializeField]
+    private Character[] level0Activate;
+
+    [SerializeField]
+    private Character[] level1Activate;
+
+    [SerializeField]
 	private Character[] level2Activate;
 
 	[SerializeField]
 	private Character[] level3Activate;
 
-	[SerializeField]
+    [SerializeField]
+    private Character[] level0Deactivate;
+
+    [SerializeField]
 	private Character[] level1Deactivate;
 
 	[SerializeField]
@@ -73,14 +81,19 @@ public class Level : MonoBehaviour
 
 	public void ResetAll()
 	{
-		foreach (var item in characters)
+        SetDangerRating(initialRating);
+        foreach (var item in characters)
 		{
-            if (item.gameObject.activeInHierarchy)
+            try
             {
                 item.Reset();
             }
+            finally
+            {
+
+            }
 		}
-		SetDangerRating(initialRating);
+		
 	}
 
 	public void KillPlayer()

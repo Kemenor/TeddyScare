@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -28,5 +29,11 @@ public class Boar : StateEnemy {
         {
             ChangeState(new BoarBackToStartState());
         }
+    }
+
+    protected override void die()
+    {
+        Anim.SetTrigger("Dead");
+        currentState = null;
     }
 }

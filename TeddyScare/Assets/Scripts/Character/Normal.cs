@@ -13,24 +13,38 @@ public class Normal : Enemy
 	// Update is called once per frame
 	void FixedUpdate()
 	{
-		if (LineOfSightToPlayer())
-		{
-			//Run away
-			Level.Instance.AddToDangerLevel();
-			Anim.SetFloat("Speed", 1f);
-			run = true;
-			ChangeDirection();
-			Move();
-		}
-		if (run)
-		{
-			Move();
-		}
+        if (!dead)
+        {
+            if (LineOfSightToPlayer())
+            {
+                //Run away
+                Level.Instance.AddToDangerLevel();
+                Anim.SetFloat("Speed", 1f);
+                run = true;
+                ChangeDirection();
+                Move();
+            }
+            if (run)
+            {
+                Move();
+            }
+        }
 	}
 
 	public override void Reset()
 	{
 		base.Reset();
-		run = false;
-	}
+        Anim.SetFloat("Speed", 0f);
+        run = false;
+        if (facingRight)
+        {
+            ChangeDirection();
+        }
+    }
+
+    protected override void die()
+    {
+        Anim.SetTrigger("Dead");
+        Level.Instance.AddToDangerLevel(3);
+    }
 }

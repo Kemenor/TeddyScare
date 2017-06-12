@@ -9,6 +9,17 @@ public class RangerIdleState : IEnemyState
 
     private float idleTimer = 0;
     private float idleDuration = 5f;
+    private bool turn = false;
+
+    public RangerIdleState()
+    {
+
+    }
+
+    public RangerIdleState(bool turnaround)
+    {
+        this.turn = turnaround;
+    }
     public void Enter(StateEnemy enemy)
     {
         enemy.Anim.SetFloat("Speed", 0f);
@@ -27,11 +38,16 @@ public class RangerIdleState : IEnemyState
         {
             idleTimer = 0;
             enemy.ChangeState(new RangerPatrolState());
+            if (turn)
+            {
+                enemy.ChangeDirection();
+            }
         }
     }
 
     public void Exit()
     {
+       
     }
 
     public void OnTriggerenter(Collider2D other)

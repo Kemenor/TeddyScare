@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public abstract class Enemy : Character {
+
+    protected bool dead = false;
     public bool LineOfSightToPlayer(float muliplier = 1f)
     {
         Player instance = Game.Player;
@@ -31,6 +33,12 @@ public abstract class Enemy : Character {
         }
 
         return false;
+    }
+
+    public override void Reset()
+    {
+        base.Reset();
+        dead = false;
     }
 
     public Vector2 GetDirection(Collider2D target)
@@ -68,6 +76,21 @@ public abstract class Enemy : Character {
         return facingRight ? Vector2.right : Vector2.left;
     }
 
+    protected void OnTriggerEnter2D(Collider2D collision)
+    {
+        OnTriggerenter2D(collision);
+    }
+
+    protected virtual void OnTriggerenter2D(Collider2D collision)
+    {
+        if (collision.tag == "Claw")
+        {
+            dead = true;
+            die();
+        }
+    }
+
+    protected abstract void die();
 
     public bool OverlapsPlayer()
     {
