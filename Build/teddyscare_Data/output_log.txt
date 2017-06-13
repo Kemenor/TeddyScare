@@ -15,7 +15,7 @@ Platform assembly: C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\T
 Loading C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.048 seconds
+- Completed reload, in  0.046 seconds
 Platform assembly: C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\TeddyScare\Build\teddyscare_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Luz\Dropbox\FHNW\ActiveDirectory\sdent-Notizen\git\TeddyScare\Build\teddyscare_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
@@ -23,303 +23,22 @@ desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.673373 ms
+UnloadTime: 1.991441 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 7.125322 ms
+UnloadTime: 12.783768 ms
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 903.
-Total: 0.406726 ms (FindLiveObjects: 0.036491 ms CreateObjectMapping: 0.033070 ms MarkObjects: 0.299913 ms  DeleteObjects: 0.036871 ms)
+Total: 0.622634 ms (FindLiveObjects: 0.095789 ms CreateObjectMapping: 0.057397 ms MarkObjects: 0.415469 ms  DeleteObjects: 0.052076 ms)
 
 BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarFollowState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at StateEnemy.OnTriggerenter2D (UnityEngine.Collider2D collision) [0x00000] in <filename unknown>:0 
-  at Enemy.OnTriggerEnter2D (UnityEngine.Collider2D collision) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.987548 ms
-
-Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 380.
-Total: 1.357023 ms (FindLiveObjects: 0.033450 ms CreateObjectMapping: 0.047514 ms MarkObjects: 0.299153 ms  DeleteObjects: 0.975384 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.520002 ms
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 906.
-Total: 0.347048 ms (FindLiveObjects: 0.044853 ms CreateObjectMapping: 0.032690 ms MarkObjects: 0.237193 ms  DeleteObjects: 0.031929 ms)
-
-BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at RangerIdleState.Enter (.StateEnemy enemy) [0x00000] in <filename unknown>:0 
-  at StateEnemy.ChangeState (IEnemyState newState) [0x00000] in <filename unknown>:0 
-  at Ranger.Reset () [0x00000] in <filename unknown>:0 
-  at Level.ResetAll () [0x00000] in <filename unknown>:0 
-  at DeathBehaviour.OnStateExit (UnityEngine.Animator animator, AnimatorStateInfo stateInfo, Int32 layerIndex) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.136554 ms
-
-Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 383.
-Total: 1.506029 ms (FindLiveObjects: 0.036111 ms CreateObjectMapping: 0.051316 ms MarkObjects: 0.382019 ms  DeleteObjects: 1.035443 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.754535 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 383.
-Total: 0.499855 ms (FindLiveObjects: 0.035731 ms CreateObjectMapping: 0.034210 ms MarkObjects: 0.405586 ms  DeleteObjects: 0.023947 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.600587 ms
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 909.
-Total: 0.859448 ms (FindLiveObjects: 0.131521 ms CreateObjectMapping: 0.089327 ms MarkObjects: 0.563335 ms  DeleteObjects: 0.073362 ms)
-
-BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.955998 ms
+UnloadTime: 1.578632 ms
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1296.
-Total: 0.701698 ms (FindLiveObjects: 0.175614 ms CreateObjectMapping: 0.045994 ms MarkObjects: 0.457282 ms  DeleteObjects: 0.020906 ms)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1290.
+Total: 0.973103 ms (FindLiveObjects: 0.171813 ms CreateObjectMapping: 0.090468 ms MarkObjects: 0.674710 ms  DeleteObjects: 0.035351 ms)
 
 RangerIdleState
  
@@ -333,252 +52,106 @@ LookoutPatrolState
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-LookoutIdleState
+Scene 'Bear3' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerPatrolState
+Scene 'Bear4' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerIdleState
+Scene 'Bear5' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutPatrolState
+Scene 'Bear6' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutIdleState
+Scene 'Bear7' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerPatrolState
+Scene 'Bear8' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutPatrolState
+Scene 'Bear9' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutIdleState
+Scene 'Bear10' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerIdleState
+Scene 'Bear11' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-BoarIdleState
+Scene 'Bear12' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutPatrolState
+Scene 'Bear13' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-LookoutIdleState
+Scene 'Bear14' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerPatrolState
+Scene 'Bear15' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerIdleState
+Scene 'Bear16' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-BoarPatrolState
+Scene 'Bear17' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerPatrolState
+Scene 'Bear18' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerIdleState
+Scene 'Bear19' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerPatrolState
+Scene 'Bear20' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-RangerIdleState
+Scene 'Bear21' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+(Filename:  Line: 137)
 
-BoarIdleState
+Scene 'Bear22' couldn't be loaded because it has not been added to the build settings or the AssetBundle has not been loaded.
+To add a scene to the build settings use the menu File->Build Settings...
  
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarFollowState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at StateEnemy.OnTriggerenter2D (UnityEngine.Collider2D collision) [0x00000] in <filename unknown>:0 
-  at Enemy.OnTriggerEnter2D (UnityEngine.Collider2D collision) [0x00000] in <filename unknown>:0 
- 
-(Filename:  Line: -1)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.899832 ms
-
-Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 386.
-Total: 1.495386 ms (FindLiveObjects: 0.041052 ms CreateObjectMapping: 0.076403 ms MarkObjects: 0.343247 ms  DeleteObjects: 1.033162 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.604388 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 386.
-Total: 0.395323 ms (FindLiveObjects: 0.027748 ms CreateObjectMapping: 0.028508 ms MarkObjects: 0.316638 ms  DeleteObjects: 0.022046 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.699798 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 386.
-Total: 0.437516 ms (FindLiveObjects: 0.030029 ms CreateObjectMapping: 0.029269 ms MarkObjects: 0.352750 ms  DeleteObjects: 0.024707 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.535206 ms
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1299.
-Total: 0.405586 ms (FindLiveObjects: 0.057778 ms CreateObjectMapping: 0.034210 ms MarkObjects: 0.279767 ms  DeleteObjects: 0.033450 ms)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-BoarPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-LookoutIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerIdleState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerPatrolState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-RangerAttackState
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.705592 ms
-
-Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 389.
-Total: 1.365385 ms (FindLiveObjects: 0.030789 ms CreateObjectMapping: 0.045234 ms MarkObjects: 0.326901 ms  DeleteObjects: 0.961700 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.559154 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 389.
-Total: 0.379738 ms (FindLiveObjects: 0.023567 ms CreateObjectMapping: 0.027368 ms MarkObjects: 0.309416 ms  DeleteObjects: 0.018625 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.616552 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 389.
-Total: 0.361112 ms (FindLiveObjects: 0.023187 ms CreateObjectMapping: 0.026988 ms MarkObjects: 0.291170 ms  DeleteObjects: 0.019386 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.599066 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 389.
-Total: 0.366434 ms (FindLiveObjects: 0.024707 ms CreateObjectMapping: 0.026228 ms MarkObjects: 0.295352 ms  DeleteObjects: 0.019005 ms)
+(Filename:  Line: 137)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 19834 -> priority: 1 
-  Thread -> id: 22638 -> priority: 1 
+  Thread -> id: 1d0c -> priority: 1 
+  Thread -> id: 2b11c -> priority: 1 
