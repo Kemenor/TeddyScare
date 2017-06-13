@@ -1,0 +1,58 @@
+Initialize engine version: 5.6.1f1 (2860b30f0b54)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     912 MB
+    Driver:   10.18.10.4276
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\TeddyScare\Build\teddyscare_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\TeddyScare\Build\teddyscare_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.040 seconds
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\TeddyScare\Build\teddyscare_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.485153 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 20.195074 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 902.
+Total: 0.973198 ms (FindLiveObjects: 0.137648 ms CreateObjectMapping: 0.111688 ms MarkObjects: 0.658659 ms  DeleteObjects: 0.063390 ms)
+
+BoarPatrolState
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.753809 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1288.
+Total: 1.067378 ms (FindLiveObjects: 0.183531 ms CreateObjectMapping: 0.103236 ms MarkObjects: 0.764914 ms  DeleteObjects: 0.013885 ms)
+
+RangerIdleState
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+BoarPatrolState
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.285084 ms
+
+Unloading 203 unused Assets to reduce memory usage. Loaded Objects now: 379.
+Total: 2.106382 ms (FindLiveObjects: 0.076068 ms CreateObjectMapping: 0.088747 ms MarkObjects: 0.546971 ms  DeleteObjects: 1.392784 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: a88 -> priority: 1 
+  Thread -> id: 118c -> priority: 1 
